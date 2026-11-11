@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_LMALM_SOGI_QSG (
+module tt_um_lmalm_sogi_qsg (
     input  wire [7:0] ui_in,    // Entradas dedicadas (ej. para datos de red o configuración)
     output wire [7:0] uo_out,   // Salidas dedicadas (ej. para el ángulo theta o frecuencia)
     input  wire [7:0] uio_in,   // IOs: Input path
